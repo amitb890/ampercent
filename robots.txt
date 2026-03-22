@@ -1,0 +1,22 @@
+User-agent: Googlebot
+Disallow: /downloads/
+Disallow: /downloads-files/
+Disallow: /projects/
+Disallow: /wp/wp-admin/
+Disallow: /wp/wp-includes/
+Allow: /wp-includes/js/
+Allow: /wp-content/plugins/
+Allow: /wp-content/themes/
+Disallow: /cgi-bin/
+Disallow: /assets/
+Disallow: /g/
+Disallow: /img/
+Disallow: /videos/
+ 
+Sitemap: https://www.ampercent.com/sitemap_index.xml
+
+
+
+
+
+
