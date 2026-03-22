@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+	<ShortName>Amazon</ShortName>
+	<Description>Amazon</Description>
+	<Url type="application/rss+xml" template="http://xml-us.amznxslt.com/onca/xml?Service=AWSECommerceService&amp;Version=2005-07-26&amp;Operation=ItemSearch&amp;ContentType=text%2Fxml&amp;SubscriptionId=1TNCMT2927RM2D7Z0FR2&amp;ResponseGroup=Large&amp;Style=http%3A%2F%2Ftagjag.com%2Fcss%2Famazon.xslt&amp;SearchIndex=Blended&amp;Keywords={searchTerms}&amp;format=rss" />
+</OpenSearchDescription>

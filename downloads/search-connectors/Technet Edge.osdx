@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:ms-ose="http://schemas.microsoft.com/opensearchext/2009/">
+	<ShortName>Technet Edge</ShortName>
+	<Description>Technet Edge OpenSearch via Windows 7 Search Federation</Description>
+	<Url type="application/rss+xml" template="http://edge.technet.com/Search/feed/rss/?Term={searchTerms}"/>
+    <Url type="text/html" template="http://edge.technet.com/Search/Default.aspx?Term={searchTerms}"/>
+</OpenSearchDescription>

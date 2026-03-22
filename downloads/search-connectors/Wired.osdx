@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:ms-ose="http://schemas.microsoft.com/opensearchext/2009/">
+  <ShortName>Wired</ShortName>
+  <Description>OpenSearch for isoHunt via Windows 7 Search Federation.</Description>
+  <Url type="application/rss+xml" template="http://www.wired.com/search/rss?query={searchTerms}"/>
+</OpenSearchDescription>

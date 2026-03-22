@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:ms-ose="http://schemas.microsoft.com/opensearchext/2009/">
+	<ShortName>Flickr</ShortName>
+	<Description>Flickr OpenSearch via Windows 7 Search Federation.</Description>
+	<Url type="application/rss+xml" template="http://www.istartedsomething.com/flickrsearch/?search={searchTerms}&amp;count={count}&amp;page={startPage}&amp;sort=interestingness-desc"/>
+	<Url type="text/html" template="http://www.flickr.com/search/?w=all&amp;q={searchTerms}&amp;m=text"/>
+</OpenSearchDescription>

@@ -1,0 +1,5 @@
+.header{width:900px;height:60px;background:#CCC;}
+.container{width:900px;height:400px;background:#565656;}
+.footer{width:900px;height:50px;background:#627aac;}
+.main{width:600px;margin-left:15px;height:350px;float:left;background:#00B594;margin-top:20px;}
+.sidebar{width:260px;background:#d9e2eb;float:left;height:350px;margin-left:20px;margin-top:20px;}

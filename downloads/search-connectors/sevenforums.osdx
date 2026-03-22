@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:ms-ose="http://schemas.microsoft.com/opensearchext/2009/">
+<ShortName>Sevenforums</ShortName>
+<Description>OpenSearch SevenForums via Live Search using Windows 7 Federated Search</Description>
+<Url type="application/rss+xml" template="http://api.bing.com/rss.aspx?source=web&amp;query={searchTerms} site:sevenforums.com&amp;web.count=50"/>
+<Url type="text/html" template="http://www.bing.com/search?q={searchTerms}+site:sevenforums.com"/>
+</OpenSearchDescription>

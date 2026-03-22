@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:ms-ose="http://schemas.microsoft.com/opensearchext/2009/">
+	<ShortName>Yahoo Images</ShortName>
+	<Description>OpenSearch</Description>
+	<Url type="application/rss+xml" template="http://search.yahooapis.com/VideoSearchService/rss/videoSearch.xml?appid=eGM5ACfV34Fb5tOHx.OAlIO76doKdFOyHlItfvE8_ByLNez6RE1C4380UUliomFU3FqQt9e9WKWr&amp;query={searchTerms}"/>
+</OpenSearchDescription> 

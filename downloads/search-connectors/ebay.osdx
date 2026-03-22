@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:ms-ose="http://schemas.microsoft.com/opensearchext/2009/">
+	<ShortName>eBay</ShortName>
+	<Description>eBay Search</Description>
+	<Url type="application/rss+xml" template="http://rss.api.ebay.com/ws/rssapi?FeedName=SearchResults&amp;siteId=0&amp;language=en-US&amp;output=RSS20&amp;catref=C5&amp;sacur=0&amp;from=R6&amp;saobfmts=exsif&amp;fts=2&amp;dfsp=1&amp;saslc=0&amp;floc=1&amp;sabfmts=0&amp;saaff=afcj&amp;ftrv=1&amp;ftrt=1&amp;fcl=3&amp;frpp=25&amp;afcj=471546&amp;satitle={searchTerms}&amp;saslop=1&amp;sacat=-1&amp;fss=0"/>
+	<Url type="text/html" template="http://rss.api.ebay.com/ws/rssapi?FeedName=SearchResults&amp;siteId=0&amp;language=en-US&amp;output=RSS20&amp;catref=C5&amp;sacur=0&amp;from=R6&amp;saobfmts=exsif&amp;fts=2&amp;dfsp=1&amp;saslc=0&amp;floc=1&amp;sabfmts=0&amp;saaff=afcj&amp;ftrv=1&amp;ftrt=1&amp;fcl=3&amp;frpp=25&amp;afcj=471546&amp;satitle={searchTerms}&amp;saslop=1&amp;sacat=-1&amp;fss=0"/>
+</OpenSearchDescription>

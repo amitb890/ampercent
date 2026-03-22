@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:ms-ose="http://schemas.microsoft.com/opensearchext/2009/">
+<ShortName>Yahoo</ShortName>
+<Description>OpenSearch Yahoo via Windows 7 Search.</Description>
+<Url type="application/rss+xml" template="http://api.search.yahoo.com/WebSearchService/rss/webSearch.xml?appid=yahoosearchwebrss&amp;query={searchTerms}&amp;num=10&amp;output=rss"/>
+<Url type="text/html" template="http://search.yahoo.com/search?p={searchTerms}"/>
+</OpenSearchDescription> 

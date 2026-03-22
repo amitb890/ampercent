@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<custombuttons xmlns="http://toolbar.google.com/custombuttons/">
+<button>
+<title>Ampercent</title>
+<description>Tech News,How to Guides and Computer Tutorials</description>
+<feed refresh-interval="1800">http://feeds2.feedburner.com/ampercent</feed>
+<site>http://www.ampercent.com/</site>
+<update>http://www.ampercent.com/downloads/ampercentu.xml</update>
+<search>http://www.ampercent.com/index.php?s={query}</search>
+<icon mode="base64" type="image/x-icon">
+AAABAAEAGBgAAAEAGABIBwAAFgAAACgAAAAYAAAAMAAAAAEAGAAAAAAAIAcAABMLAAATCwAAAAAA
+AAAAAAAgICAQEBAEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAwMDAkJCQYGBgTExMTExMTExMTExMTExMTExMTExMTExMSEhIS
+EREREBAQDw8QDw8QDw8QDw8REBAREBAREBANDQ0IBwcEBARcXFxDQ0MuLi4oKCgoKCgoKCgoKCgo
+KCgoKCgoKCgoJycnJiYmJSUlIyMjISEjICAiICAiICAjICAjISEjISEfHR0UEhILCgpzc3NmZmZJ
+SUkzMzMzMzMzMzMzMzMzMzNMTExMTExMS0s/Pz8xMDAwLi4vLS0tKystKiosKSksKSksKSksKSkn
+JCQaGBgPDQ1zc3NmZmZJSUkzMzMzMzM5OTllZWWKioqQkJCQkJCQkJCQkJCDg4NXVlYwLy9JR0eQ
+kJCQkJBbWlotKystKionJSUaGBgPDQ1zc3NmZmZJSUkzMzMzMzOJiYmQkJCQkJCYmJi7u7vc3Nz2
+9vbs7Oy5ubl3dnZQT0+QkJCQkJBcW1suLCwuLCwoJiYbGRkPDg5zc3NmZmZJSUkzMzNycnLDw8O1
+tbW0tLR5eXlYWFhBQUF3d3etra3////+/v6oqKiQkJCQkJBcW1svLS0uLCwoJiYbGRkPDg5zc3Nm
+ZmZJSUkzMzO0tLTv7+/i4uKDg4MzMzMzMzMzMzMzMzMyMjJbWlrW1tb///+np6eQkJBcW1suLCwu
+LCwoJiYbGRkPDg5zc3NmZmZJSUkzMzPJycn///////95eXkzMzMzMzMzMzMzMjIyMjIxMTEwLy+6
+ubnc3NyQkJBcW1suLCwuKysoJSUbGRkPDg5zc3NmZmZJSUkzMzOtra3///////+YmJgzMzMzMzMz
+MzMzMjIyMTExMDAwLi6Qj4/s7OyQkJBbWlotKiotKionJCQaGBgPDg5zc3NmZmZJSUkzMzNpaWn/
+///////x8fFWVlYzMzMzMzMzMjIyMTExMDAwLi6Qj4/a2tqQkJBbWlosKSksKSknJCQbGRkQDg5z
+c3NmZmZJSUkzMzMzMzOtra3///////////+YmJheXl5iYmJ0dHSBgYGJiIjBwcHGxsaQkJBbWlot
+KiotKiooJSUbGhoQDw9zc3NmZmZJSUkzMzMzMzMzMzOSkpLx8fH/////////////////////////
+///////S0tKQkJBcW1svLS0uLCwpJyccGxsREBBzc3NmZmZJSUkzMzMzMzMzMzMzMzNBQUGFhYWS
+kpLJycnJycnJycnIyMjIyMjk5OTy8vKQkJBdXFwwLy8wLy8qKSkdHR0RERFzc3NmZmZJSUkzMzMz
+MzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMjKSkpL+/v6ZmZleXV0yMTEyMTEsKyseHh4S
+ERFzc3NmZmZJSUkzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzOgoKD///+np6de
+Xl4zMjIzMjItLCwfHx8SEhJzc3NmZmZJSUkzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMz
+MzMzMzPW1tb///+6urpWVlYzMzMzMzMtLS0fHx8SEhJzc3NmZmZJSUkzMzMzMzNWVlaCgoJLS0sz
+MzMzMzMzMzMzMzMzMzMzMzOtra3////////KyspEREQzMzMzMzMtLS0fHx8SEhJzc3NmZmZJSUkz
+MzMzMzNpaWnw8PDT09Opqal8fHxxcXFpaWmgoKDk5OT///////////+NjY0zMzMzMzMzMzMtLS0f
+Hx8SEhJzc3NmZmZJSUkzMzMzMzNcXFz///////////////////////////////////////+goKAz
+MzMzMzMzMzMzMzMtLS0fHx8SEhJzc3NmZmZJSUkzMzMzMzMzMzNBQUF3d3eSkpLJycnJycnJycnJ
+ycnJycmSkpJOTk4zMzMzMzMzMzMzMzMzMzMtLS0fHx8SEhKHh4eFhYVtbW1aWlpaWlpaWlpaWlpa
+WlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpBQUEoKCgYGBisrKy0tLSl
+paWXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eA
+gIBGRkYmJibFxcXPz8/FxcW7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7
+u7u7u7u7u7u7u7u7u7usrKyCgoJFRUUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAA=
+</icon>
+</button>
+</custombuttons>

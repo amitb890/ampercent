@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:ms-ose="http://schemas.microsoft.com/opensearchext/2009/">
+<ShortName>MSN</ShortName>
+<Description>OpenSearch MSN via Windows 7 Search.</Description>
+<Url type="application/rss+xml" template="http://search.msn.com/results.aspx?q={searchTerms}&amp;num=10&amp;format=rss"/>
+<Url type="text/html" template="http://search.msn.com/results.aspx?q={searchTerms}"/>
+</OpenSearchDescription> 
