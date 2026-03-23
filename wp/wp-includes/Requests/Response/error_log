@@ -1,0 +1,2 @@
+[04-Dec-2016 11:33:51 America/Denver] PHP Fatal error:  Class 'Requests_Utility_CaseInsensitiveDictionary' not found in /home/ampercen/public_html/wp/wp-includes/Requests/Response/Headers.php on line 13
+[26-Apr-2019 00:14:25 America/Denver] PHP Fatal error:  Class 'Requests_Utility_CaseInsensitiveDictionary' not found in /home/ampercen/public_html/wp/wp-includes/Requests/Response/Headers.php on line 13

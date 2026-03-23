@@ -1,0 +1,2 @@
+[25-Apr-2019 23:03:24 America/Denver] PHP Fatal error:  Class 'IXR_Client' not found in /home/ampercen/public_html/wp/wp-includes/IXR/class-IXR-clientmulticall.php on line 9
+[25-Apr-2019 23:03:24 America/Denver] PHP Fatal error:  Class 'IXR_Server' not found in /home/ampercen/public_html/wp/wp-includes/IXR/class-IXR-introspectionserver.php on line 10

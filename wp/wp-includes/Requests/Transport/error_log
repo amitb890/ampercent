@@ -1,0 +1,4 @@
+[04-Dec-2016 11:34:22 America/Denver] PHP Fatal error:  Interface 'Requests_Transport' not found in /home/ampercen/public_html/wp/wp-includes/Requests/Transport/cURL.php on line 15
+[04-Dec-2016 11:34:28 America/Denver] PHP Fatal error:  Interface 'Requests_Transport' not found in /home/ampercen/public_html/wp/wp-includes/Requests/Transport/fsockopen.php on line 15
+[26-Apr-2019 00:14:25 America/Denver] PHP Fatal error:  Interface 'Requests_Transport' not found in /home/ampercen/public_html/wp/wp-includes/Requests/Transport/cURL.php on line 15
+[26-Apr-2019 00:14:25 America/Denver] PHP Fatal error:  Interface 'Requests_Transport' not found in /home/ampercen/public_html/wp/wp-includes/Requests/Transport/fsockopen.php on line 15

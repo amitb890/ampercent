@@ -1,0 +1,1 @@
+[04-Dec-2016 11:32:45 America/Denver] PHP Fatal error:  Class 'Requests_Exception_Transport' not found in /home/ampercen/public_html/wp/wp-includes/Requests/Exception/Transport/cURL.php on line 3

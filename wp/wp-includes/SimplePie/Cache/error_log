@@ -1,0 +1,8 @@
+[04-Dec-2016 11:35:18 America/Denver] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/ampercen/public_html/wp/wp-includes/SimplePie/Cache/DB.php on line 52
+[04-Dec-2016 11:35:23 America/Denver] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/ampercen/public_html/wp/wp-includes/SimplePie/Cache/File.php on line 52
+[04-Dec-2016 11:35:29 America/Denver] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/ampercen/public_html/wp/wp-includes/SimplePie/Cache/Memcache.php on line 59
+[04-Dec-2016 11:35:34 America/Denver] PHP Fatal error:  Class 'SimplePie_Cache_DB' not found in /home/ampercen/public_html/wp/wp-includes/SimplePie/Cache/MySQL.php on line 58
+[26-Apr-2019 00:14:25 America/Denver] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/ampercen/public_html/wp/wp-includes/SimplePie/Cache/DB.php on line 52
+[26-Apr-2019 00:14:26 America/Denver] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/ampercen/public_html/wp/wp-includes/SimplePie/Cache/File.php on line 52
+[26-Apr-2019 00:14:26 America/Denver] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/ampercen/public_html/wp/wp-includes/SimplePie/Cache/Memcache.php on line 59
+[26-Apr-2019 00:14:26 America/Denver] PHP Fatal error:  Class 'SimplePie_Cache_DB' not found in /home/ampercen/public_html/wp/wp-includes/SimplePie/Cache/MySQL.php on line 58

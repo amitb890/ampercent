@@ -1,0 +1,2 @@
+[04-Dec-2016 11:33:34 America/Denver] PHP Fatal error:  Interface 'Requests_Proxy' not found in /home/ampercen/public_html/wp/wp-includes/Requests/Proxy/HTTP.php on line 19
+[26-Apr-2019 00:14:24 America/Denver] PHP Fatal error:  Interface 'Requests_Proxy' not found in /home/ampercen/public_html/wp/wp-includes/Requests/Proxy/HTTP.php on line 19

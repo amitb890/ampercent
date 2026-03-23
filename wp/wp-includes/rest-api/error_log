@@ -1,0 +1,2 @@
+[04-Dec-2016 13:24:36 America/Denver] PHP Fatal error:  Class 'WP_HTTP_Response' not found in /home/ampercen/public_html/wp/wp-includes/rest-api/class-wp-rest-response.php on line 17
+[25-Apr-2019 23:03:31 America/Denver] PHP Fatal error:  Class 'WP_HTTP_Response' not found in /home/ampercen/public_html/wp/wp-includes/rest-api/class-wp-rest-response.php on line 17

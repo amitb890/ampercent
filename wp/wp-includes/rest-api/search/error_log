@@ -1,0 +1,1 @@
+[26-Apr-2019 00:14:25 America/Denver] PHP Fatal error:  Class 'WP_REST_Search_Handler' not found in /home/ampercen/public_html/wp/wp-includes/rest-api/search/class-wp-rest-post-search-handler.php on line 15

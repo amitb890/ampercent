@@ -1,0 +1,6 @@
+[25-Apr-2019 23:03:24 America/Denver] PHP Fatal error:  Call to undefined function register_block_type() in /home/ampercen/public_html/wp/wp-includes/blocks/block.php on line 32
+[25-Apr-2019 23:03:24 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/ampercen/public_html/wp/wp-includes/blocks/archives.php on line 147
+[25-Apr-2019 23:03:24 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/ampercen/public_html/wp/wp-includes/blocks/categories.php on line 102
+[25-Apr-2019 23:03:24 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/ampercen/public_html/wp/wp-includes/blocks/latest-posts.php on line 132
+[25-Apr-2019 23:03:24 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/ampercen/public_html/wp/wp-includes/blocks/shortcode.php on line 32
+[25-Apr-2019 23:03:24 America/Denver] PHP Fatal error:  Call to undefined function register_block_type() in /home/ampercen/public_html/wp/wp-includes/blocks/latest-comments.php on line 150
