@@ -1,0 +1,10 @@
+Things to do
+
+1. Make Youtube videos responsive.
+2. Optimize the styling of internal headings, bolded p tags and other things.
+
+3. Related posts by tags
+https://netmospherics.com/blog/wordpress-related-posts-without-plugin/
+
+4. Display random posts
+https://firstsiteguide.com/display-random-posts/

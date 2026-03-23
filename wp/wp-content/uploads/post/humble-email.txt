@@ -1,0 +1,22 @@
+Hello 
+
+I am trying to reach the owner or current administrator of [www.url.com]
+
+We have found that you have republished content on your website, which was originally published on our blog (www.your-site.com).
+
+URL's of the original content 
+
+http://www.your-site.com/example-page-1 (published on : Date)
+http://www.your-site.com/example-page-2 (published on : Date)
+
+URl's of the copied content 
+
+http://www.url.com/example-page-1
+http://www.url.com/example-page-2
+
+Your behaviour does not comply with the terms of www.your-site.com (include a link to your terms and conditions page)
+
+We advise you to remove all the copied articles from your website within 48 hours.If you fail to comply we will file a legal complaint with your hosting provider or with the advertising partners.
+
+Thank You
+
