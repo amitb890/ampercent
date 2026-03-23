@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<custombuttons xmlns="http://toolbar.google.com/custombuttons/">
+<button>
+<title>Techie-Buzz</title>
+<description>Know your technology head on</description>
+<feed refresh-interval="1800">http://feeds.techie-buzz.com/techiebuzz</feed>
+<site>http://www.techie-buzz.com/</site>
+<update>http://www.ampercent.com/assets/tbg.xml</update>
+<search>http://www.techie-buzz.com/index.php?s={query}</search>
+<icon mode="base64" type="image/x-icon">
+AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAA
+AAAAAAD///8A/v7+Jvn4/NPi3NT/vK14/6KKMP+YfhX/l3wP/5d8D/+ZfhX/ooox/76uff/j3tj/
++fj80/7+/ib///8A/v7+Ivf2++rUyrX/oIgt/5V4Bv+bgBb/nYMf/5+FIf+fhSH/nYQf/5t/Fv+V
+eAb/oooy/9fOvP/49vzq/f39Ivr5/dfYzr7/mX4a/5N3CP+YfRr/m4Ed/5yCIP+Zfxv/lXsY/5N6
+Gv+VfR7/mYAh/5R5Df+bgh//29LG//n4/Nfr5uf/pIw2/5N4Cv+WfRv/lHse/5uDJv+bgyb/mYEl
+/5F6I/+OdyL/jnci/4tyE/+VfiL/k3gM/6WPPv/s6Ov/xrmT/5N2BP+ehy3/w7eO//////+agy//
+moMv/5aALf//////////////////////hm0R/5R+IP+Sdgf/yr6f/6qUR/+Wegv/oo47/5qGOP//
+////moY4/5qGOP+Xgzf//////4p4MP+KeDD/j3wz//////+PeB3/lnwW/7GcWP+ehCT/nIEa/6iV
+Sf+ciUL//////5yJQv+ciUL/mYdA//////+Mejj/jHo4/5F/O///////n4xE/52HLP+plEH/noUj
+/52EIP+tm1X/oI9M//////+gj0z/oI9M/56MSv//////jX0//419P/+Tg0P//////6WTT/+fijD/
+qZQ8/6iSO/+ljjH/sqJh/6WVVv//////pZVW/6WVVv+hkVP//////////////////////5yMT/+u
+nl3/pZE2/66ZRf+rlUb/ooou/7CiZ/+hkln//////6GSWf+ilFv/oJJZ//////+HeUT/iHtF////
+//+nmF7/uKlt/62YP/+2pF3/saBh/5N5Ef+Sfiz/npFc//////+ekVz/oZRf/6OWYf//////j4JP
+/5KFUf//////tKdw/6iVQP+xnEP/yryN/87Erv+OdA3///////////////////////////+pnWz/
+////////////////s6d2/6mWRv/As2z/vapd/+Xe0f/t6u7/qpdX/52HL/+ejEP/mohC/7itgP+7
+sYT/v7SH/7mvgv+5r4L/vbOG/7OkX//JvYb/z8GJ/9fNpv/18vb/9PLz197X0f+0o2X/r5xK/6+d
+UP+woFT/t6hj/8Gyc//As3f/wbN5/8e6h//Yzaf/2c+l/9vSrP/y7+7/8/Ly1/v6+iL18vXq6OLg
+/83CmP/Bs2T/x7hw/87BiP/VyZj/28+o/+DXtf/h2bn/3dWv/+Lbv//y7+3/9PLz6vv6+iL///8A
++/v7JvXz9NPx7vD/5N/P/9nQqf/YzqP/3NKq/97Vsv/g2bf/5N7C/+3q3f/08vL/9PLy0/v6+ib/
+//8AwAMAAIABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AACAAQAAwAMAAA==
+</icon>
+</button>
+</custombuttons>

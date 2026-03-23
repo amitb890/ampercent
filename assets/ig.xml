@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+<ModulePrefs title="Ampercent igoogle"
+description="Ampercent is a popular technology Blog on Computers,Software and internet.We publish the latest Tech News,Software reviews and How-To Guides"
+author="Amit Banerjee and Soumen Halder"
+author_email="amit@ampercent.com"
+screenshot="http://ampercent.com/assets/ampercent-google-gadget-full.png"
+thumbnail="http://ampercent.com/assets/ampercent-google-gadget-full.png"
+singleton="false"
+scrolling="true"
+height="350">
+<Require feature="tabs"/>
+<Require feature="analytics"/>
+</ModulePrefs>
+
+<UserPref name="selectedTab" datatype="hidden"/>
+<Content type="html"><![CDATA[
+
+<style type="text/css">
+
+.tablib_table {
+font-size: 0.80em;
+}
+.tablib_selected, .tablib_unselected {
+width: 23%;
+}
+a img { border: 0 none; }
+
+.statusLabel {
+font-size: 0.85em;
+font-style: italic;
+padding-top: 10px;
+text-align: center;
+}
+.feedHeader {
+padding-top: 5px;
+font-size: 0.85em;
+}
+.feedHeader .feedTitle {
+font-weight: bold;
+font-size: 1.1em;
+}
+.feedHeader .feedAuthor {
+font-weight: normal;
+font-size: 0.8em;
+color: #676767;
+}
+
+.feedList {
+font-size: 0.80em;
+margin: 0px;
+padding: 0px 0px 5px 0px;
+border-bottom: 1px solid #aaaaaa;
+}
+.feedList li {
+margin-top: 5px;
+padding: 3px 3px 0px 3px;
+border-top: 1px solid #aaaaaa;
+}
+.feedList li div.entryTitle a {
+font-weight: bold;
+}
+.feedList li div.entrySummary {
+font-size: 0.90em;
+color: #666;
+}
+.feedList li div.entryTimestamp {
+font-size: 0.80em;
+color: #676767;
+}
+</style>
+
+<script>
+// Global variables
+var prefs = new _IG_Prefs(__MODULE_ID__);
+var tabs = new _IG_Tabs(__MODULE_ID__);
+
+function init() {
+var f1 = "http://feeds2.feedburner.com/ampercent";
+var f2 = "http://api.flickr.com/services/feeds/photos_public.gne?id=28989846@N02";
+var f3 = "http://twitter.com/statuses/user_timeline/16002175.rss";
+var f4 = "http://gdata.youtube.com/feeds/api/users/amitgeek/uploads?orderby=updated";
+var ft1 = "Blog";
+var ft2 = "Flickr";
+var ft3 = "Twitter";
+var ft4 = "YouTube";
+
+tabs.addDynamicTab(ft1, _IG_Callback(callbackTab, f1));
+tabs.addDynamicTab(ft2, _IG_Callback(callbackTab, f2));
+tabs.addDynamicTab(ft3, _IG_Callback(callbackTab, f3));
+tabs.addDynamicTab(ft4, _IG_Callback(callbackTab, f4));
+};
+
+function callbackTab(tabId, feedUrl) {
+
+var summaries = 0;
+var entries = 6;
+var renderHtml = 1;
+var showTimestamp = 0;
+var container = _gel(tabId);
+
+container.innerHTML = '<div class="statusLabel">Loading...</div>';
+
+_IG_FetchFeedAsJSON(
+feedUrl,
+function(feed) {
+var html = new Array();
+html.push('<div class="feedHeader">');
+if (tabs.getSelectedTab().getIndex() == 0) {
+html.push('Search Box');
+} else if (tabs.getSelectedTab().getIndex() == 1) {
+html.push('<a target="_top" href="http://www.flickr.com/photos/28989846@N02/"><img align="right" src="http://www.google.com/s2/favicons?domain=flickr.com" /></a><a target="_top" href="http://flickr.com/photos/amit-agarwal/">Flickr Photos</a>');
+} else if (tabs.getSelectedTab().getIndex() == 2) {
+html.push('<a target="_top" href="http://twitter.com/ampercent"><img align="right" src="http://www.google.com/s2/favicons?domain=twitter.com" /></a><a target="_top" href="http://twitter.com/ampercent">Twitter</a>');
+} else if (tabs.getSelectedTab().getIndex() == 3) {
+html.push('<a target="_top" href="http://www.youtube.com/amitgeek"><img align="right" src="http://www.google.com/s2/favicons?domain=youtube.com" /></a><a target="_top" href="http://www.youtube.com/amitgeek">Youtube Videos</a>');
+}
+html.push('</div>');
+
+
+// Iterate through each feed entry and generate list of content.
+html.push('<ul class="feedList">');
+for (var n = 0; n < feed.Entry.length; n++) {
+var entry = feed.Entry[n];
+html.push('<li><b>' + (n+1) + '</b>');
+
+if(tabs.getSelectedTab().getIndex() == 2) {
+html.push('. ' + _hesc(entry.Title) + ' <a target="_top" href="' + entry.Link + '">#</a>');
+} else {
+html.push('. ' + '<a target="_top" href="' + entry.Link + '">' + _hesc(entry.Title) + '</a>');
+}
+
+if (typeof entry.Summary != "undefined" && entry.Summary != "") {
+var summary = document.createElement("div");
+summary.innerHTML = (summaries == 0) ? entry.Summary : entry.Summary.substr(0, summaries);
+if(tabs.getSelectedTab().getIndex() == 1 || tabs.getSelectedTab().getIndex() == 3) {
+html.push('<div class="entrySummary">');
+html.push((renderHtml ? summary.innerHTML : _hesc(summary.innerHTML)));
+html.push('</div>');
+}
+}
+if (!isNaN(entry.Date) && showTimestamp) {
+html.push('<div class="entryTimestamp">' + new Date(entry.Date * 1000).toLocaleString() + '</div>');
+}
+html.push('</li>');
+}
+
+if(tabs.getSelectedTab().getIndex() == 0) {
+html.push('<li>&raquo;&nbsp; For Future Updates, please visit <a href="http://www.ampercent.com" target="_top">Ampercent</a>.</li>');
+}
+
+html.push('</ul>');
+container.innerHTML = html.join("");
+_IG_AdjustIFrameHeight();
+},
+entries,
+(summaries > -1)
+);
+}
+
+// Set onload event handler to call init()
+
+_IG_RegisterOnloadHandler(init);
+_IG_Analytics("UA-4852176-1", "/ig");
+</script>
+]]>
+</Content>
+</Module>
+
